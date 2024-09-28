@@ -1,0 +1,182 @@
+/* app/assets/stylesheets/home.css */
+
+.Home {
+    width: 1366px;
+    height: 768px;
+    background: rgba(155, 245, 254, 0.58);
+  }
+  
+  .Rectangle1 {
+    width: 1366px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #0099A7;
+  }
+  
+  .Menu {
+    width: 208px;
+    height: 768px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    background: #017783;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: flex-start;
+    display: inline-flex;
+  }
+  
+  .MenuList {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+  }
+  
+  .MenuListItem1,
+  .MenuListItem2,
+  .MenuListItem3,
+  .MenuListItem4,
+  .MenuListItem5,
+  .MenuListItem7 {
+    align-self: stretch;
+  }
+  
+  .MenuListItem1 {
+    height: 64px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .StateLayer {
+    align-self: stretch;
+    height: 56px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+  }
+  
+  .Content {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .EBilling,
+  .LabelText,
+  .SupportingText,
+  .Logout,
+  .FindOrRegisterPatient {
+    color: #F5F5F5;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+  }
+  
+  .EBilling {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.50px;
+  }
+  
+  .LabelText {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.50px;
+  }
+  
+  .SupportingText {
+    color: #49454F;
+    font-size: 22px;
+    letter-spacing: 0.50px;
+  }
+  
+  .Button {
+    padding: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .Logout {
+    width: 92px;
+    background: #BE3A4E;
+    position:relative;
+  }
+  
+  .FindOrRegisterPatient {
+    width: 300px;
+    background: #238E6B;
+    position:relative;
+  }
+  
+  .InfoCard {
+    width: 240px;
+    padding: 16px;
+    background: white;
+    border-radius: 20px;
+    border: 1px #D9D9D9 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    display: inline-flex;
+  }
+  
+  .Body {
+    width: 208px;
+    height: 115px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    display: flex;
+  }
+  
+  .Text,
+  .TextStrong {
+    display: inline-flex;
+    align-self: stretch;
+  }
+  
+  .Billed,
+  .NewRegistrations {
+    flex: 1 1 0;
+    color: #1E1E1E;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30.80px;
+    word-wrap: break-word;
+  }
+  
+  .TextStrong {
+    width: 208px;
+    height: 85px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+.container{
+}

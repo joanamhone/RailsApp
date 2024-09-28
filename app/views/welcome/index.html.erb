@@ -1,0 +1,36 @@
+<div class="Login">
+  <%= image_tag "https://via.placeholder.com/1366x768", class: "background-img" %>
+
+  <div class="FormLogIn">
+    <div class="InputField">
+      <div class="label">User Name</div>
+      <div class="Input">
+        <%= text_field_tag :username, nil, class: "Value" %>
+      </div>
+    </div>
+
+    <div class="InputField">
+      <div class="label">Password</div>
+      <div class="Input">
+        <%= password_field_tag :password, nil, class: "Value" %>
+      </div>
+    </div>
+
+    <div class="InputField">
+      <div class="label">Department</div>
+      <div class="Input">
+        <%= text_field_tag :department, nil, class: "Value" %>
+      </div>
+    </div>
+
+    <div class="ButtonGroup">
+      <%= button_tag type: "submit", class: "Button" do %>
+        <div class="text">Sign In</div>
+      <% end %>
+    </div>
+
+    <div class="TextLink">
+      <%= link_to "Forgot password?", "#", class: "ForgotPassword" %>
+    </div>
+  </div>
+</div>
